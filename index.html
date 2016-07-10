@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <script></script>
+    <title>WeEditor富文本编辑器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="no"> <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- <link rel="stylesheet" href="//res.wx.qq.com/wechatgame/static/game/dist/css/style-game-post.5d1febdd.css">  --> 
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="game-post">
+    <div class="game-post__publish">
+        <label for="" class="game-post__publish-title-label">
+            <input id="title" type="text" class="game-post__publish-title" placeholder="请输入标题">
+        </label>
+        <div class="ui-1px-border"></div>
+        <div style="height: 348px;-webkit-user-select:auto;background:#fff" contenteditable="true" name="" id="content" cols="" rows="" class="game-post__publish-des" placeholder="请输入内容"></div>
+        <div class="ui-1px-border"></div>
+        <div class="game-post__publish-op fixed-bar">
+            <div class="game-post__publish-pics">
+      
+                <a id="btn_emoji" class="game-post__publish-pic-wrap pub-face" style="display:none;">
+                        
+                </a>
+                <input style="display:none;" class="game-post__publish-pic-wrap pic-type" type="file" accept="image/*" multiple="" id="btn_pic">
+                       
+                </a>
+            </div>
+            <!-- 按钮不可用态 game-post__publish-btn_disable -->
+            <span id="btn_sumbit" class="game-post__publish-btn game-post__publish-btn_disable">发表</span>
+            
+        </div>
+        <div id="emojiPanel" class="pub-faces" style="display: none;">
+            <div id="emoji-panel" class="ui-carousel js-slide" data-ride="carousel">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var WeEditor = {};
+</script>
+
+
+<script type="text/javascript" src='util.js'></script>
+<script type="text/javascript" src='slide.js'></script>
+<script type="text/javascript" src='emoji.js'></script>
+<script type="text/javascript" src='selection.js'></script>
+<script type="text/javascript" src='upload.js'></script>
+
+<script type="text/javascript" src='editor.js'></script>
+<script type="text/javascript">
+    new WeEditor.Editor();
+</script>
+</body>
+</html>

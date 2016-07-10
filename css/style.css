@@ -1,0 +1,262 @@
+    body {
+    margin: 0;
+}
+    body {
+    background-color: #efeff4;
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
+    height: 100%;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    ol, ul {
+        list-style: none;
+    }
+    .game-post__publish-title {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    padding: 15px;
+}
+a, button, input {
+    -webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+    .game-post {
+    height: 100%;
+}
+.game-post__publish-title-label {
+    display: block;
+    background-color: #fff;
+}
+.ui-1px-border {
+    position: relative;
+    height: 1px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.game-post__publish-des {
+    display: block;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 16px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.game-post__publish-op {
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+}
+.game-post__publish-pics {
+    padding: 15px 5px 15px 15px;
+    font-size: 0;
+}
+.game-post__publish-btn.game-post__publish-btn_disable {
+    opacity: .3;
+}
+.game-post__publish-btn {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #21b100;
+    border-radius: 5px;
+    background-clip: padding-box;
+    top: 10px;
+    right: 15px;
+}
+    	.emoji{
+        	width: 20px;
+        	height: 20px;
+        }
+        .fixed-bar{
+            position: relative;
+            display: block;
+            width: 100%;
+            bottom: 0;
+        }
+        .pic-type{
+        	overflow: hidden;
+		    position: relative;
+		    width: 25px;
+		    height: 25px;
+		    background: url(../img/select-photo2.png) no-repeat 0 0;
+		    background-size: 25px 25px;
+		    display: inline-block;
+        }
+        .pub-face{
+        	margin-right: 14px;
+        	overflow: hidden;
+		    position: relative;
+		    width: 25px;
+		    height: 25px;
+		    background: url(../img/select-face.png) no-repeat 0 0;
+		    background-size: 25px 25px;
+		    display: inline-block;
+        }
+        .pub-face.active {
+            background-image: url(../img/select-face-active.png);
+        }
+
+        .pub-faces .face-panel-1 {
+            background-image: url(../img/nopack/face-panel1.png?2fe5ad46);
+        }
+        .pub-faces .face-panel {
+            float: left;
+            width: 256px;
+            height: 96px;
+            background: #f0eff5 no-repeat 50% 50%;
+            background-size: 256px auto;
+        }
+
+        .pub-faces .ui-carousel-indicators {
+    position: relative;
+    bottom: initial;
+    left: initial;
+    margin-top: 5px;
+    margin-left: -7px;
+    width: initial;
+}
+.ui-carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 11;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    list-style: none;
+    -webkit-transform: translate(0,0);
+    text-align: center;
+}
+
+.pub-faces .face-panel {
+    float: left;
+    width: 256px;
+    height: 96px;
+    background: #f0eff5 no-repeat 50% 50%;
+    background-size: 256px auto
+}
+
+.pub-faces .face-panel span {
+    float: left;
+    box-sizing: border-box;
+    width: 36px;
+    height: 32px
+}
+
+.pub-faces .face-panel-1 {
+    background-image: url(../img/face-panel1.png?2fe5ad46)
+}
+
+.pub-faces .face-panel-2 {
+    background-image: url(../img/face-panel2.png?8e18d844)
+}
+
+.pub-faces .face-panel-3 {
+    background-image: url(../img/face-panel3.png?6b545eb9)
+}
+
+.pub-faces .face-panel-4 {
+    background-image: url(../img/face-panel4.png?ffa662fd)
+}
+
+.pub-faces .face-panel-5 {
+    background-image: url(../img/face-panel5.png?5a20055d)
+}
+
+.pub-faces .ui-carousel-indicators li {
+    margin: 0 3px;
+    background-color: #ddd
+}
+
+.pub-faces .ui-carousel-indicators li.js-active {
+    background-color: #64b5e8
+}
+
+.ui-carousel-item {
+    position: relative;
+    z-index: 9;
+    -webkit-transition: .2s ease-in-out left;
+    transition: .2s ease-in-out left;
+    -webkit-transform: translate(0,0);
+}
+
+.ui-carousel-inner>.js-active {
+    left: 0;
+    z-index: 10;
+}
+.ui-carousel-inner>.js-show, .ui-carousel-inner>.js-active, .ui-carousel-inner>.js-next, .ui-carousel-inner>.js-prev {
+    display: block;
+}
+.ui-carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pub-faces .ui-carousel {
+    overflow: hidden;
+    margin: auto;
+    width: 256px;
+    margin-top: 10px;
+}
+.ui-carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.3);
+}
+.pub-faces .ui-carousel-indicators li.js-active {
+    background-color: #64b5e8;
+}
+
+[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+  color: #aaa;
+}
+.game-post__publish-des img{
+    width: 100%;
+}
+.delete{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: red;
+    display: inline-block;
+    text-align: center;
+}
+.insert-img-content{
+    position: relative;
+    border: 1px solid #bbb;
+    width: 90%;
+}
